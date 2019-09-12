@@ -3,6 +3,9 @@
     <my-button @click="$router.push('button')">
       Button
     </my-button>
+    <my-button @click="$router.push('toast')">
+      Toast
+    </my-button>
   </div>
 </template>
 
