@@ -13,6 +13,10 @@ npm run dev
 
 # build for library
 npm run build:my-component
+
+# build for components
+npm run build:components
+
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
