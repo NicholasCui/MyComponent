@@ -4,7 +4,7 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
-import MyComponent from '../src'
+import MyComponent from '../dist'
 
 Vue.use(MyComponent)
 
