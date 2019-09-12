@@ -233,7 +233,8 @@ module.exports = function (it, key) {
     return {
       time: 2000,
       timer: null,
-      show: false
+      show: false,
+      text: ''
     };
   },
 
@@ -462,7 +463,7 @@ var render = function() {
       },
       [
         _c("div", { staticClass: "my-toast-content" }, [
-          _vm._v("\n      这是个 toast ~\n    ")
+          _vm._v("\n      " + _vm._s(_vm.text) + "\n    ")
         ])
       ]
     )

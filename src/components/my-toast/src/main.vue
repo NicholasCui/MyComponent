@@ -3,7 +3,7 @@
     <div class="my-toast"
          v-show="show">
       <div class="my-toast-content">
-        这是个 toast ~
+        {{text}}
       </div>
     </div>
   </transition>
@@ -16,7 +16,8 @@ export default {
     return {
       time: 2000,
       timer: null,
-      show: false
+      show: false,
+      text: ''
     }
   },
   watch: {
